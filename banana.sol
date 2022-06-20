@@ -1,6 +1,4 @@
-/**
- *Submitted for verification at BscScan.com on 2021-04-12
-*/
+
 
 pragma solidity ^0.8.11;
 contract banana{
@@ -12,7 +10,7 @@ contract banana{
     uint public decimals = 18;
     mapping(uint => uint) public burnt;
     mapping(uint => uint) public cycle;
- // string public mascot= "🍌";
+
 
     
     event Transfer(address indexed from,address indexed to, uint value);
