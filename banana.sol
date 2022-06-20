@@ -2,13 +2,13 @@
  *Submitted for verification at BscScan.com on 2021-04-12
 */
 
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.11;
 contract banana{
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 15000000000 * 10 ** 18;
-    string public name = "🍌Banana";
-    string unicode public symbol = "🍌Banana";
+    string  public name = unicode"🍌Banana";
+    string public symbol = unicode"🍌Banana";
     uint public decimals = 18;
     mapping(uint => uint) public burnt;
     mapping(uint => uint) public cycle;
